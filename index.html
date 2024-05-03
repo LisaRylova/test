@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Вычисление площади</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <div class="outer">
+    <p>Выберите форму</p>
+    <div class="radio">
+    <input type="radio" id="radio1" name="radiob1" value="krug" />
+    <label for="contactChoice1">круг</label>
+    <br>
+    <input type="radio" id="radio2" name="radiob2" value="kvadrat" />
+    <label for="contactChoice1">квадрат</label>
+    </div> 
+    <p>Выберите размер (радиус круга или сторону квадрата)</p>
+    <div class="centered">
+        <input type="text" id = "a" size=49px placeholder="...">
+ </div>
+ <div class="centered">
+    <button type="button"  id = "plus" >Площадь</button>
+    <input type="text" id = "answer" placeholder="Ответ" disabled>
+    <button type="button"  id = "plus" >Отменить</button>
+
+ </div>
+ 
+</div>
+<script src="scripts.js"></script>
+</body>
+</html>
